@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'BadScript-Regula';
+    src:
+      url(./BadScript-Regular.ttf) format('truetype');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded-VariableFont_wght';
+    src:
+      url(./Unbounded-VariableFont_wght.ttf) format('truetype');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src:
+      url(./Comfortaa-VariableFont_wght.ttf) format('truetype');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RubikDirt';
+    src:
+      url(./RubikDirt-Regular.ttf) format('truetype');
+    font-weight: 1000;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ysabeau_Infant';
+    src:
+      url(./YsabeauInfant-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ZenKurenaido';
+    src:
+      url(./ZenKurenaido-Regular.ttf) format('truetype');
+    font-weight: 100;
+    font-display: swap;
+}

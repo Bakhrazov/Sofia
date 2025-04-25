@@ -1,0 +1,628 @@
+.odin {
+    box-sizing: border-box;
+    width: 360px;
+    
+}
+
+.cover {
+  padding: 290px 20px 290px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 757px;
+  position: relative;
+  z-index: 0;
+}
+
+.cover__title {
+  font-weight: 700;
+  font-size: 55px;
+  color: #000000;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cover__start {
+  font-family: 'Unbounded-VariableFont_wght';
+  padding: 0px 0px 0px 30px;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.cover__center {
+  font-family: 'BadScript-Regula';
+  display: flex;
+  padding: 10px 31px 0px 170px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cover__end {
+  font-family: 'Comfortaa';
+  display: flex;
+  align-items: center;
+  padding: 4px 0px 0px 150px;
+  gap: 30px;
+}
+/*
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f5f2;
+}
+*/
+.story-text {
+  margin-bottom: 40px;
+  text-align: justify;
+  font-size: 1.1em;
+}
+/*
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f5f2;
+}
+*/
+.story-text {
+  margin-bottom: 40px;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.odin {
+  display: grid;
+  padding: 0px 55px;
+  width: 430px;
+  row-gap: 30px;
+}
+
+
+
+.photo-scroll {
+  display: flex;
+  object-fit: cover;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 300px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+
+  border-left:18px solid #f8f5f2; /* Синяя рамка сверху */
+  border-right:18px solid #f8f5f2; /* Синяя рамка сверху */
+  box-sizing: border-box; /* Учитываем рамку в общей высоте */
+}
+
+.photo-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.photo-item {
+  display: flex;
+  padding-right: 10px;
+  scroll-snap-align: start;
+  height: 300px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.RubikDirt {
+  font-family: 'RubikDirt';
+  font-size: 28px;
+  color: #B675B3;
+  padding-bottom: 20px;
+}
+
+.YsabeauInfant {
+  font-family: 'Ysabeau_Infant';
+}
+
+.ZenKurenaido {
+  font-family: 'ZenKurenaido';
+  
+}
+
+.odin_ni {
+  padding-bottom: 150px;
+}
+
+.hasha {
+  display: block;
+  padding: 20px 0px;
+}
+
+/* 1 */
+.one_text_top{
+  font-size: 20px;
+  color: #000000;
+}
+
+.one_text_bottom{
+  padding: 0px 0px 80px 0px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.form_text_top {
+  padding: 50px 17px 0px 17px;
+  font-size: 30px;
+}
+
+.form_text_bottom {
+  padding: 0px 155px 80px 40px;
+  font-size: 25px;
+}
+
+.begin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 40px;
+  min-height: 627px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.card_begin {
+  background-image: url(../images/0.jpg);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 0.6);
+  z-index: -1;
+}
+
+.begin_RubikDirt {
+  font-family: 'RubikDirt';
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* 2 */
+
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*padding: 40px 14px;*/
+  height: 764px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.card_two {
+  background-image: url(../images/200.jpg);
+}
+
+.two-form_text_top {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 58px 50px 0px 14px;
+}
+
+.twoo-form_text_top {
+  font-size: 25px;
+  color: #ffffff;
+  padding: 17px 40px 0px 14px;
+  box-sizing: border-box;
+}
+
+.arrow {
+  padding: 10px 95px 0px 47px;
+}
+
+.two-photo-scroll {
+  display: flex;
+  object-fit: cover;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 300px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  
+
+  /*border-left:18px solid #f8f5f2; /* Синяя рамка сверху 
+  border-right:18px solid #f8f5f2; /* Синяя рамка сверху 
+  box-sizing: border-box; /* Учитываем рамку в общей высоте */
+}
+
+.two-photo-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.two-photo-item {
+  display: flex;
+  padding: 0px 17px;
+  scroll-snap-align: start;
+  height: 300px;
+  
+  position: relative;
+  flex-shrink: 0;
+}
+
+.two-hasha {
+  display: block;
+  padding: 170px 0px 20px 0px;
+}
+
+/* 3 */
+.three {
+  background-color: #00000052;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*padding: 40px 14px;*/
+  height: 932px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.three_text_top{
+  padding: 84px 48px 32px 28px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.three_images {
+  width: 332px;
+  height: 460px;
+  border-radius: 0px 58px 58px 0px;
+}
+
+.three_text_bottom{
+  padding: 65px 65px 95px 45px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* 4 */
+.four {
+  background-color: #EECCCC;
+  display: flex;
+  flex-direction: column;
+  height: 932px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.four_text_top{
+  padding: 64px 48px 64px 26px;
+  font-size: 30px;
+  color: #000000;
+  
+}
+
+.four_images {
+  display: grid;
+  row-gap: 40px;
+}
+
+.four_images-a {
+  width: 225px;
+  height: 300px;
+  border-radius: 0px 58px 58px 0px;
+}
+
+.four_images-b {
+  width: 400px;
+  height: 300px;
+  border-radius: 0px 58px 58px 0px;
+}
+
+.four_text_bottom{
+  padding: 65px 65px 95px 45px;
+  font-size: 25px;
+  color: #000000;
+}
+
+/* 5 */
+.five_text_top {
+  padding: 51px 37px 17px 37px;
+  font-size: 26px;
+  color: #000000;
+}
+
+.five_text_bottom {
+  padding: 17px 65px 30px 44px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.five_hasha {
+  padding: 8px 0px;
+}
+
+/* 6 */
+.six {
+  background-color: #D2F1F8;
+}
+
+.six_images {
+  padding-top: 455px;
+}
+.six_images-a {
+  width: 320px;
+  height: 240px;
+  border-radius: 0px 58px 58px 0px;
+  z-index: 1;
+}
+
+.card_six {
+  background-image: url(../images/600.jpg);
+}
+
+.card_six-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 567px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.six_text_top {
+  padding: 51px 37px 25px 37px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.six_text_bottom {
+  padding: 150px 37px 30px 37px;
+  font-size: 25px;
+  color: #000000;
+}
+
+/* 7 */
+
+.seven {
+  background-color: #8D0A0A;
+}
+
+.seven_hasha {
+  display: block;
+  padding: 6px 11px;
+}
+
+.seven_photo-scroll {
+  display: flex;
+  object-fit: cover;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 300px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+
+  /*border-left:18px solid #AE1616; /* Синяя рамка сверху */
+  /*border-right:18px solid #AE1616; /* Синяя рамка сверху */
+  /*box-sizing: border-box; /* Учитываем рамку в общей высоте */
+  
+}
+
+.seven_photo-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.seven_text_top {
+  padding: 25px 37px 25px 37px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.seven_text_bottom {
+  padding: 0px 37px 30px 37px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.seven_radius {
+  border-radius: 20px;
+}
+
+.seven_bottom {
+  padding-bottom: 25px;
+}
+
+/* 8 */
+
+.eight_text_top {
+  padding: 25px 37px 25px 37px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.eight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 943px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.eight_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 0.4);
+  z-index: -1;
+}
+
+.card_eight {
+  background-image: url(../images/801.jpg);
+}
+
+.eight_images-a {
+  width: 350px;
+  height: 300px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.eight_images-b {
+  width: 217px;
+  height: 217px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.eight_images-b_padding {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.eight_images-a_padding {
+  padding-bottom: 20px;
+}
+
+/* 9 */
+
+.nine {
+  background-color: #ffffff;
+}
+
+.nine_text_top {
+  padding: 25px 37px 25px 37px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.nine_photo-scroll {
+  display: flex;
+  object-fit: cover;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 300px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+
+  border-left:18px solid #ffffff; /* Синяя рамка сверху */
+  border-right:18px solid #ffffff; /* Синяя рамка сверху */
+  box-sizing: border-box; /* Учитываем рамку в общей высоте */
+}
+
+.nine_hasha {
+  padding-bottom: 40px;
+}
+
+/* 10 */
+
+.ten {
+  background-color: #EECCCC;
+}
+
+.ten_text_top {
+  padding: 25px 37px 25px 37px;
+  font-size: 30px;
+  color: #524444;
+}
+
+.ten_photo-scroll {
+  border-left:18px solid #EECCCC; /* Синяя рамка сверху */
+  border-right:18px solid #EECCCC; /* Синяя рамка сверху */
+  box-sizing: border-box; /* Учитываем рамку в общей высоте */
+}
+
+/* 11 */
+
+.eleven {
+  padding-bottom: 40px;
+}
+
+.eleven_text_top {
+  padding: 40px 30px 25px 30px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.eleven_text_bottom {
+  padding: 0px 30px 30px 30px;
+  font-size: 25px;
+  color: #000000;
+}
+
+/* 12 */
+
+.twelve {
+  background-color: #98a896a2;
+}
+
+.twelve_text_top {
+  display: flex;
+  justify-content: center;
+  padding: 25px 30px 25px 30px;
+  font-size: 30px;
+  color: #353333;
+}
+
+.twelve_text_bottom {
+  padding: 30px 30px 30px 30px;
+  font-size: 25px;
+  color: #353333;
+}
+
+.twelve_images-a {
+  width: 430px;
+  height: 323px;
+  
+}
+
+/* 13 */
+
+.thirteen_text_top {
+  padding: 25px 30px 25px 30px;
+  font-size: 30px;
+  color: #3a3838;
+} 
+
+.thirteen{
+  padding-bottom: 60px;
+}
+/* 14 */
+
+.fourteen {
+  padding: 25px 0px 60px 0px;
+  background-color: #c2b6b67a;
+}
+
+.fourteen_text_top {
+  padding: 25px 30px 25px 30px;
+  font-size: 30px;
+  color: #3a3838;
+} 
