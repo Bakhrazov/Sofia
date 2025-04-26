@@ -46,33 +46,13 @@
   padding: 4px 0px 0px 150px;
   gap: 30px;
 }
-/*
-body {
-  font-family: 'Georgia', serif;
-  line-height: 1.8;
-  color: #333;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f8f5f2;
-}
-*/
+
 .story-text {
   margin-bottom: 40px;
   text-align: justify;
   font-size: 1.1em;
 }
-/*
-body {
-  font-family: 'Georgia', serif;
-  line-height: 1.8;
-  color: #333;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f8f5f2;
-}
-*/
+
 .story-text {
   margin-bottom: 40px;
   text-align: justify;
@@ -90,18 +70,15 @@ body {
 
 .photo-scroll {
   display: flex;
-  object-fit: cover;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  width: 100vw;
-  height: 300px;
-  position: relative;
+  width: 100%; /* вместо 100vw */
+  min-height: 200px; /* вместо фиксированной высоты */
   -webkit-overflow-scrolling: touch;
-
-  border-left:18px solid #f8f5f2; /* Синяя рамка сверху */
-  border-right:18px solid #f8f5f2; /* Синяя рамка сверху */
-  box-sizing: border-box; /* Учитываем рамку в общей высоте */
+  gap: 8px; /* контролируем расстояние между фото */
+  padding: 0 10px; /* адаптивные отступы вместо фиксированных рамок */
+  box-sizing: border-box;
 }
 
 .photo-scroll::-webkit-scrollbar {
@@ -139,7 +116,7 @@ body {
 
 .hasha {
   display: block;
-  padding: 20px 0px;
+  padding: 20px 15px 0px 15px;
 }
 
 /* 1 */
