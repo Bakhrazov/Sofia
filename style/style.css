@@ -70,23 +70,34 @@
 
 .photo-scroll {
   display: flex;
+  column-gap: 10px;
   overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  width: 100%;
+  padding: 0; /* Важно: обнуляем padding */
+  margin: 0;  /* Обнуляем margin */
   
-  -webkit-overflow-scrolling: touch;
-  
+  -webkit-overflow-scrolling: touch; /* Плавный скролл на iOS */
 }
 
 .photo-scroll::-webkit-scrollbar {
-  display: none;
+  display: none; /* Скрываем scrollbar */
 }
 
 .photo-item {
-  display: flex;
-  padding-right: 10px;
+  flex: 0 0 auto; /* Запрещаем растягивание/сжатие */
   scroll-snap-align: start;
-  height: 300px;
-  position: relative;
-  flex-shrink: 0;
+  margin: 0;      /* Обнуляем margin */
+  padding: 0;     /* Обнуляем padding */
+  line-height: 0; /* Убираем пространство под img */
+}
+
+.photo-item img {
+  width: auto;    /* или конкретное значение, например 300px */
+  height: 100%;   /* или фиксированная высота */
+  max-height: 300px;
+  display: block; /* Убираем лишнее пространство вокруг img */
+  object-fit: cover; /* Сохраняем пропорции */
 }
 
 .RubikDirt {
