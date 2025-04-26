@@ -143,7 +143,7 @@
 }
 
 .form_text_bottom {
-  padding: 0px 155px 80px 40px;
+  padding: 30px 155px 80px 40px;
   font-size: 25px;
 }
 
@@ -247,7 +247,7 @@
 
 .two-hasha {
   display: block;
-  padding: 170px 0px 20px 0px;
+  padding: 190px 15px 20px 15px;
 }
 
 /* 3 */
@@ -338,7 +338,7 @@
 }
 
 .five_hasha {
-  padding: 8px 0px;
+  padding: 8px;
 }
 
 /* 6 */
@@ -521,7 +521,7 @@
 }
 
 .nine_hasha {
-  padding-bottom: 40px;
+  padding: 0px 15px 40px;
 }
 
 /* 10 */
@@ -545,7 +545,7 @@
 /* 11 */
 
 .eleven {
-  padding-bottom: 40px;
+  padding: 0px 8px 40px;
 }
 
 .eleven_text_top {
