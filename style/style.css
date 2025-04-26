@@ -71,14 +71,9 @@
 .photo-scroll {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  width: 100%; /* вместо 100vw */
-  min-height: 200px; /* вместо фиксированной высоты */
+  
   -webkit-overflow-scrolling: touch;
-  gap: 8px; /* контролируем расстояние между фото */
-  padding: 0 10px; /* адаптивные отступы вместо фиксированных рамок */
-  box-sizing: border-box;
+  
 }
 
 .photo-scroll::-webkit-scrollbar {
